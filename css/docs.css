@@ -1,0 +1,64 @@
+/* Docs */
+code, pre{
+  color: var(--white);
+  background: #333;
+  padding: 10px;
+}
+
+.docs-main h3{
+  margin: 20px 0;
+}
+
+.docs-main .grid{
+  grid-template-columns: 1fr 2fr;
+
+  /* improtant attribute */
+  align-items: flex-start;
+  /* improtant attribute */
+}
+
+.docs-main nav li{
+  font-size: 17px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.alert{
+  background-color: var(--light-color);
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 15px 0;
+}
+
+.alert i{
+  margin-right: 10px;
+}
+
+.alert-success{
+  background-color: var(--success-color);
+  color: var(--white);
+}
+
+.alert-error{
+  background-color: var(--error-color);
+  color: var(--white);
+}
+
+/* Backgrounds & colored buttons */
+.text-primary{
+  color: var(--primary-color);
+}
+
+.text-secondary{
+  color: var(--secondary-color);
+}
+
+.text-dark{
+  color: var(--dark-color);
+}
+
+.text-light{
+  color: var(--light-color);
+}
+
